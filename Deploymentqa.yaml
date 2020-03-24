@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: helloworld
+   namespace: qa
+spec:
+   containers:
+   - name: helloworld-container01
+     image: nehashirsat/helloworld:$BUILD_NUMBER
+     ports:
+     - containerPort: 9000
