@@ -1,1 +1,1 @@
-image: nehashirsat/helloworld:$BUILD_NUMBER
+image: nehashirsat/helloworld:4
