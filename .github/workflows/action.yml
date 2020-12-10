@@ -6,6 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@dev
     - name: Run Snyk to check for vulnerabilities
+      uses: snyk/actions/maven@master
       env:
         SNYK_TOKEN: 3b6e5149-750e-44f8-835c-4e01a169c6c3
 
