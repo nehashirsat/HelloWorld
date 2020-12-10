@@ -8,5 +8,4 @@ jobs:
     - name: Run Snyk to check for vulnerabilities
       env:
         SNYK_TOKEN: 3b6e5149-750e-44f8-835c-4e01a169c6c3
-      with:
-        args: --severity-threshold=high
+
