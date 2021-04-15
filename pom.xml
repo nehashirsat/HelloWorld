@@ -34,6 +34,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
+        <dependency>
+           <groupId>io.argoproj.argo</groupId>
+           <artifactId>argo-workflows-java-client</artifactId>
+           <version>SNAPSHOT</version>
+         </dependency>        
     </dependencies>
     <build>
         <plugins>
