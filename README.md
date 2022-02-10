@@ -3,7 +3,6 @@ A simple helloworld microservice developed using SpringBoot \
 
 
 
-
 <pre>
 Here are the supported resources to access the helloworld service :
   http://HOST:PORT:8084/
