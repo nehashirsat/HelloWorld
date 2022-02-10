@@ -2,9 +2,10 @@ apiVersion: v1
 kind: Pod
 metadata:
    name: helloworld
+   namespace: ${Environment}
 spec:
    containers:
    - name: helloworld-container01
-     image: nehashirsat/helloworld:6
+     image: nehashirsat/helloworld:${Tag}
      ports:
      - containerPort: 9000
